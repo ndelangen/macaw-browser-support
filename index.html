@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Macaw-browser-support by ndelangen</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Macaw-browser-support</h1>
+          <h2></h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/ndelangen/macaw-browser-support/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/ndelangen/macaw-browser-support/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/ndelangen/macaw-browser-support" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a id="macaw-browser-support-matrix" class="anchor" href="#macaw-browser-support-matrix" aria-hidden="true"><span class="octicon octicon-link"></span></a>Macaw Browser Support 'matrix'</h1>
+
+<p>by: norbert de Langen,
+state: draft</p>
+
+<h2>
+<a id="why-this-document" class="anchor" href="#why-this-document" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why this document</h2>
+
+<p>Macaw cannot possibly support every release of every browser. Even when limiting to just the 'major' browsers and the 'latest few' releases there are still too many differences in the browsers to implement any design with 100% accuracy or feature coverage.</p>
+
+<h2>
+<a id="what-can-we-support" class="anchor" href="#what-can-we-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>What can we support?</h2>
+
+<p>For a long time, it's been the rule to support "all major browser's last 2 versions". Sometimes with exceptions made for some browsers like Internet Explorer.</p>
+
+<p>But with the usage of mobile (and tablet) exploding, the browser market has fragmented significantly. Meaning statements like "supporting android" actually mean having to test a multitude of browsers on possibly hundreds of devices.</p>
+
+<p>Not supporting these devices at all, because they are not "major" browsers should be out of the question, when added up they represent at significant portion of all visits.</p>
+
+<h2>
+<a id="what-should-we-support" class="anchor" href="#what-should-we-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>What should we support?</h2>
+
+<p>Every visitor should be able to get to the content of the site. Unless there is no real content, a message like "your browser is not supported", is just plain terrible for users.</p>
+
+<p>It is acceptable to present a notification to the user that they are not getting the best experience in thei current browser.</p>
+
+<h2>
+<a id="how-will-we-support-everything" class="anchor" href="#how-will-we-support-everything" aria-hidden="true"><span class="octicon octicon-link"></span></a>How will we support everything?</h2>
+
+<p>We will introduce a tiered support system, based on browser features.</p>
+
+<p>The lowest tier will be the absolute bare minimum, little to no "nice to have"-features, no animations/transitions etc. Designs will not be pixel-perfect implemented.</p>
+
+<p>There can be any number of intermediate tiers.</p>
+
+<p>The highest tier will be implemented pixel-perfect, with all features required by agreed upon.</p>
+
+<h2>
+<a id="what-features-can-cause-tier-switches" class="anchor" href="#what-features-can-cause-tier-switches" aria-hidden="true"><span class="octicon octicon-link"></span></a>What features can cause tier-switches?</h2>
+
+<p>A huge number of variables can be at play in determining the browser tier. This is an incomplete list:</p>
+
+<ul>
+<li>javascript support</li>
+<li>media-queries support</li>
+<li>css(features) support</li>
+<li>javascript(features) support</li>
+<li>vector image support</li>
+<li>html5 media support</li>
+<li>cookies blocked</li>
+<li>connection speed</li>
+<li>...</li>
+</ul>
+
+<h2>
+<a id="exceptions" class="anchor" href="#exceptions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Exceptions</h2>
+
+<p>If there's a specific desire for browser-X on device-Y to be in a specific tier (usually the highest tier), special exceptions can be made.</p>
+
+<p>It's essential to know this requirement at the start of the project</p>
+
+<p>Please mind that this is extra work and can really impose a negative performance, and maintenance penalty.</p>
+
+<h2>
+<a id="so-what-tiers-are-there-for-project-z" class="anchor" href="#so-what-tiers-are-there-for-project-z" aria-hidden="true"><span class="octicon octicon-link"></span></a>So what tiers are there for Project-Z?</h2>
+
+<p>It depends.</p>
+        </section>
+
+        <footer>
+          Macaw-browser-support is maintained by <a href="https://github.com/ndelangen">ndelangen</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
